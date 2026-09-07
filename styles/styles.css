@@ -18,13 +18,17 @@ header {
 }
 
 nav {
+    background-color: steelblue;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
 nav a {
-    color: white;
+    color: #fff;
+    padding: 0.5rem;
+    display: block;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
@@ -34,9 +38,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin: 1rem 0;
+}
+
 main {
     max-width: 840px;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 0 1rem;
     text-align: center;
     background-color: white;
@@ -47,9 +59,11 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 5px solid #333;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: block;
-    margin: 0 auto 1rem auto;
-    border: 3px solid #333;
+    margin: 1rem auto;
     border-radius: 50%;
 }
 
