@@ -1,17 +1,14 @@
-/* Reset básico opcional */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo para todo el body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
-/* Estilo para el header */
 header {
     background-color: #333;
     color: #fff;
@@ -20,26 +17,22 @@ header {
     font-size: 1.5rem;
 }
 
-/* Estilo para el main */
 main {
     width: 400px;
     margin: 0 auto;
 }
 
-/* Estilo para h1 */
 h1 {
     margin: 10px;
     text-align: center;
 }
 
-/* Estilo para todas las imágenes */
 img {
     width: 100%;
     height: auto;
     box-shadow: 0 0 30px gray;
 }
 
-/* Estilo para las secciones */
 section {
     margin: 10px 20px;
     border: 1px solid rgb(0 0 0 / 10%);
@@ -48,17 +41,14 @@ section {
     font-size: 0.9rem;
 }
 
-/* Estilo para h2 dentro de las secciones */
 h2 {
     border-bottom: 1px solid #333;
 }
 
-/* Estilo para los párrafos dentro de las secciones */
 section p {
     margin: 10px 20px;
 }
 
-/* Estilo para el footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -67,7 +57,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Estilo para la lista desordenada */
 ul {
     margin: 10px 20px 0 20px;
 }
