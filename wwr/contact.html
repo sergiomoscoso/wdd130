@@ -54,18 +54,14 @@
 
                 <fieldset class="form-group">
                     <legend>Message Purpose</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>
-                        General Inquiry
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">
-                        Website Suggestion
-                    </label>
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label>
+
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
                 </fieldset>
 
                 <div class="form-group">
@@ -75,10 +71,8 @@
                 </div>
 
                 <div class="form-group checkbox-group">
-                    <label>
-                        <input type="checkbox" name="newsletter" value="yes">
-                        Please Subscribe me to the monthly newsletter
-                    </label>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
                 </div>
 
                 <button type="submit">Get in Touch!</button>
@@ -89,16 +83,16 @@
             <h2>We Are Here to Serve You</h2>
             <div class="employee-grid">
                 <figure class="employee-card">
-                    <img src="images/employee1.jpg" alt="Employee Profile">
+                    <img src="images/employee1.jpg" alt="John Doe - Operations & River Lead">
                     <figcaption>John Doe - Operations & River Lead</figcaption>
                 </figure>
                 <figure class="employee-card">
-                    <img src="images/employee2.jpg" alt="Employee Profile">
+                    <img src="images/employee2.jpg" alt="Mike Taylor - Safety & Gear Specialist">
                     <figcaption>Mike Taylor - Safety & Gear Specialist</figcaption>
                 </figure>
                 <figure class="employee-card">
-                    <img src="images/employee3.jpg" alt="Employee Profile">
-                    <figcaption>Sarah Jenkin - Lead River Guides</figcaption>
+                    <img src="images/employee3.jpg" alt="Sarah Jenkins & Team - Lead River Guides">
+                    <figcaption>Sarah Jenkins & Team - Lead River Guides</figcaption>
                 </figure>
             </div>
         </section>
